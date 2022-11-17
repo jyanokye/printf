@@ -40,7 +40,7 @@ int print_string(va_list ap);
 int print_percent(va_list ap);
 
 /*print_binary functions */
-int print_binary(va_list ap);
+int print_binaries(va_list ap);
 
 /* print_unsigned functions */
 int print_unsigned_int(va_list ap);
