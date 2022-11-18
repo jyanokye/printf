@@ -1,2 +1,2 @@
 # printf
-This is my first group project
+This is my first group project.
