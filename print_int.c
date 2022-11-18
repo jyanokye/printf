@@ -29,6 +29,7 @@ int print_int_helper(int n)
 	{
 		count += print_int_helper(i / 10) + 1;
 		_putchar((i % 10) + '0');
+		return (count);
 	}
 
 	return (0);

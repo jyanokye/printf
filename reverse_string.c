@@ -8,21 +8,21 @@
  */
 void rev_string(char *s)
 {
-	int lang1 = 0;
-	int lang2 = 0;
+	int len1 = 0;
+	int len2 = 0;
 	char tmp;
 
-	while (s[lang1] != '\0')
+	while (s[len1] != '\0')
 	{
-		lang1++;
+		len1++;
 	}
 
-	while (lang2 <= lang1)
+	while (len2 <= len1)
 	{
-		tmp = s[lang2];
-		s[lang2] = s[lang1];
-		s[lang1] = tmp;
-		lang2++;
-		lang1--;
+		tmp = s[len2];
+		s[len2] = s[len1];
+		s[len1] = tmp;
+		len2++;
+		len1--;
 	}
 }
