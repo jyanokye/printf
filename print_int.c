@@ -44,7 +44,7 @@ int print_int_helper(int n)
 int print_int(va_list ap)
 {
 	int n = va_arg(ap, int);
-	int count = 0:
+	int count = 0;
 
 
 	count = print_int_helper(n);

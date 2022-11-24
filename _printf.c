@@ -6,13 +6,14 @@
  * @ap: the argument pointer
  *
  * Return: 1 if the operator is valid, -1 if not
+ *
  */
 int op_checker(char c, va_list ap)
 {
 	int i;
 	func_t ops[] = {
 		{"c", print_char},
-		{"s", pront_string},
+		{"s", print_string},
 		{"d", print_int},
 		{"i", print_int},
 		{"%", print_percent},
