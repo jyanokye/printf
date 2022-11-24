@@ -22,7 +22,8 @@ int printf_binary(va_list val)
 			bin = 1;
 		if (bin)
 		{
-			b = v >> (31 - i);																			_putchar(b + 48);
+			b = v >> (31 - i);
+			_putchar(b + 48);
 			cont++;																	
 		}
 	}
