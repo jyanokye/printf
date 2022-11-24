@@ -18,6 +18,7 @@ int op_checker(char c, va_list ap)
 		{"i", print_int},
 		{"%", print_percent},
 		{"b", print_binary},
+		{"r", printf_stringreverse},
 		{NULL, NULL}
 	};
 

@@ -29,7 +29,7 @@ int _putchar(char c);
 
 /* rev_string function */
 void rev_string(char *s);
-
+int printf_stringreverse(va_list args);
 
 /* Function that produces output according to a format */
 int _printf(const char *format, ...);
