@@ -45,6 +45,7 @@ int print_int(va_list ap);
 
 /*print_binary functions */
 int print_binary(va_list ap);
+int printf_binary(va_list val);
 
 /* print_unsigned functions */
 int print_unsigned_int(va_list ap);
