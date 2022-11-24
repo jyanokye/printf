@@ -11,6 +11,7 @@ int printf_binary(va_list val)
 	int bin = 0;
 	int cont = 0;
 	int i, a = 1, b;
+	
 	unsigned int num = va_arg(val, unsigned int);
 	unsigned int v;
 
