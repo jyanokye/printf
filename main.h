@@ -55,4 +55,5 @@ int printf_oct(va_list ap);
 
 int printf_rot13(va_list args);
 
+int printf_special_string(va_list ap);
 #endif /* MAIN_H*/

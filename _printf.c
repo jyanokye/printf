@@ -21,6 +21,7 @@ int op_checker(char c, va_list ap)
 		{"r", printf_stringreverse},
 		{"o", printf_oct},
 		{"R", printf_rot13},
+		{"S", printf_special_string}
 		{NULL, NULL}
 	};
 
