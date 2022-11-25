@@ -53,4 +53,6 @@ int print_unsigned_int(va_list ap);
 /* octal */
 int printf_oct(va_list ap);
 
+int printf_rot13(va_list args);
+
 #endif /* MAIN_H*/
